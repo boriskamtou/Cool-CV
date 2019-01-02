@@ -1,0 +1,164 @@
+body{
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Karla Regular", sans-serif;
+}
+/***************************************DESIGN DU FORMULAIRE D'INFORMATION**************************************************/
+/***********************Menu*********************/
+.menu  {
+	padding-top: 20px;
+	padding-right: 70px;
+	font-family: "karla-bold", sans-serif;
+}
+
+ul {
+	display: inline;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+li{
+	display: inline;
+}
+
+li a {
+	text-decoration: none;
+	color: #fff;
+	margin-right: 26px;
+	letter-spacing: 2px;
+}
+
+li a:hover{
+	color: #19182a;
+	transition: 1s;
+}
+
+
+.brand {
+	text-align: center;
+	font-size: 1rem;
+	float: left;
+	margin: 0 0 0 70px;
+	padding: 10px;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	color: #feada9;
+	background-color: #fff;
+}
+.brand h1{
+	margin: 10px 0 0 0;
+}
+.logo {
+	padding-top: 25px;
+}
+
+
+
+#header {
+	background-image: url('../image/bg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90vh;
+	font-family: "karla-bold", sans-serif;
+	color: #fff;
+	padding: 0 70px;
+}
+
+.content-header h1{
+	margin: 0;
+	font-size: 60px;
+	letter-spacing: 3px;
+}
+.content-header hr {
+	border-style: none;
+	height: 1.2px;
+	width: 70rem;
+	background-color: #fff;
+}
+
+.content-header {
+	text-align: center;
+	padding-top: 10%;
+}
+.info {
+	margin-top: 15px;
+	margin-bottom: 40px;
+}
+.info p {
+	margin: 8px 0 0 0;
+	font-size: 50px;
+}
+
+input{
+	border: none;
+	background-color: #fff;
+	border-radius: 5px;
+	width: 300px;
+}
+
+input:focus {
+	border: none;
+	box-shadow: 0 0 3px !important;
+	outline: none;
+}
+
+::placeholder {
+	padding-left: 10px;
+	font-size: 15px;
+}
+
+button {
+	border-radius: 5px;
+	background-color: #feada9;
+	border: none;
+	color: #fff;
+	font-weight: bold;
+	margin-left: 8px;
+	padding: 10px;
+}
+
+button:hover {
+	background-color: #ee91d8;
+	color: #fff;
+	font-weight: bold;
+	transition: 0.8s;
+}
+
+input, button {
+	height: 40px;
+}
+/*********************************************A PROPOS**********************************************/
+#a-propos {
+	padding: 100px;
+}
+#a-propos img  {
+	width: 25%;
+	height: 10%;
+	float: right;
+}
+#a-propos p {
+	width: 50%;
+	font-size: 18px;
+	line-height: 2;
+	font-family: "Rubik Medium", sans-serif;
+	text-align: justify;
+}
+
+.profil-header {
+	text-align: center;
+}
+
+.profil-header hr {
+	background-color: #ee91d8;
+	border-style: none;
+	height: 5px;
+	width: 5rem;
+}
+
+.profil-content {
+	padding-top: 30px;
+}
