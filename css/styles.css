@@ -1,11 +1,28 @@
+/********************************************* GENERAL **********************************************/
 body{
 	margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
 	font-family: "Karla Regular", sans-serif;
 }
-/***************************************DESIGN DU FORMULAIRE D'INFORMATION**************************************************/
-/***********************Menu*********************/
+
+p {
+	font-family: "Rubik Medium", sans-serif;
+}
+/********************************************* UTILS **********************************************/
+
+.padding-200 {
+	padding: 100px 200px;
+}
+
+.title{
+	color: #fff;
+	margin-top: 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/******************************************** MENU & HEADER **********************************/
 .menu  {
 	padding-top: 20px;
 	padding-right: 70px;
@@ -19,7 +36,7 @@ ul {
 	margin: 0;
 }
 
-li{
+li {
 	display: inline;
 }
 
@@ -30,8 +47,8 @@ li a {
 	letter-spacing: 2px;
 }
 
-li a:hover{
-	color: #19182a;
+li a:hover {
+	color: #b2b1ad;
 	transition: 1s;
 }
 
@@ -131,28 +148,32 @@ button:hover {
 input, button {
 	height: 40px;
 }
-/*********************************************A PROPOS**********************************************/
+/********************************************* A PROPOS **********************************************/
 #a-propos {
-	padding: 100px;
+	background-color: #f9f9ef;
+}
+#a-propos h1 {
+	text-transform: uppercase;
 }
 #a-propos img  {
 	width: 25%;
 	height: 10%;
 	float: right;
+	box-shadow: 5px 5px 5px 5px #ee91d8;
 }
 #a-propos p {
-	width: 50%;
+	width: 60%;
+	text-align: left;
 	font-size: 18px;
 	line-height: 2;
 	font-family: "Rubik Medium", sans-serif;
-	text-align: justify;
 }
 
 .profil-header {
 	text-align: center;
 }
 
-.profil-header hr {
+.souligner {
 	background-color: #ee91d8;
 	border-style: none;
 	height: 5px;
@@ -162,3 +183,33 @@ input, button {
 .profil-content {
 	padding-top: 30px;
 }
+/********************************************* COMPETENCES **********************************************/
+#competences {
+	background-color: #ee91d8;
+	color: #fff;
+	height: 50vh;
+}
+.souligner-1{
+	background-color: #fff;
+	border-style: none;
+	height: 5px;
+	width: 5rem;
+}
+/********************************************* CONTACT **********************************************/
+
+/* #contact {
+	background-color: #f9f9ef;
+}
+
+.form-contact input[type=email], .form-contact textarea{
+	border-style: none;
+	display: inline-block;
+	background-color: #bcbcb8;
+	width: 500px;
+	position: relative;
+	left: 500px;
+}
+
+.form-contact textarea {
+	margin-top: 10px;
+} */
